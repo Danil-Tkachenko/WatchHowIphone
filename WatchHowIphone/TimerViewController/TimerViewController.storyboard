@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Таймер-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="TimerViewController" id="Y6W-OH-hqX" customClass="TimerViewController" customModule="WatchHowIphone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHr-Xs-nGH">
+                                <rect key="frame" x="16" y="369" width="75" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Bj4-sC-Ote"/>
+                                    <constraint firstAttribute="height" constant="70" id="giR-bE-Zb0"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Отмена">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                    <color key="baseBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReO-K5-ZOk">
+                                <rect key="frame" x="304" y="369" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="aJd-qB-SNG"/>
+                                    <constraint firstAttribute="width" constant="70" id="wbq-Rq-oj1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Старт">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="startAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QwM-uV-2Bx"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cwn-ep-0XM">
+                                <rect key="frame" x="0.0" y="127" width="390" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="Wmn-OH-eDf"/>
+                                    <constraint firstAttribute="width" constant="390" id="gBv-f0-qsy"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ч" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfg-tl-aVP">
+                                <rect key="frame" x="88" y="225" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="с" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5B-g3-QQJ">
+                                <rect key="frame" x="334" y="225" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="мин" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3D-vp-fp7">
+                                <rect key="frame" x="207" y="225" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LB-Io-Ki4">
+                                <rect key="frame" x="135" y="47" width="176" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ReO-K5-ZOk" firstAttribute="top" secondItem="Cwn-ep-0XM" secondAttribute="bottom" constant="26" id="5cQ-fp-Ksy"/>
+                            <constraint firstItem="Qfg-tl-aVP" firstAttribute="top" secondItem="Cwn-ep-0XM" secondAttribute="bottom" constant="-118" id="D1b-ZO-3aa"/>
+                            <constraint firstItem="IHr-Xs-nGH" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="V4g-bf-jz3"/>
+                            <constraint firstItem="IHr-Xs-nGH" firstAttribute="top" secondItem="Cwn-ep-0XM" secondAttribute="bottom" constant="26" id="Yzd-Hs-RGr"/>
+                            <constraint firstItem="r3D-vp-fp7" firstAttribute="top" secondItem="Cwn-ep-0XM" secondAttribute="bottom" constant="-118" id="ZdH-vC-53u"/>
+                            <constraint firstItem="Cwn-ep-0XM" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="80" id="deO-sB-NDa"/>
+                            <constraint firstItem="r3D-vp-fp7" firstAttribute="leading" secondItem="Cwn-ep-0XM" secondAttribute="trailing" constant="-183" id="gKo-Zi-D2h"/>
+                            <constraint firstItem="h5B-g3-QQJ" firstAttribute="leading" secondItem="Cwn-ep-0XM" secondAttribute="trailing" constant="-56" id="luP-sr-UYQ"/>
+                            <constraint firstItem="ReO-K5-ZOk" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailingMargin" id="m7G-tf-zu6"/>
+                            <constraint firstItem="h5B-g3-QQJ" firstAttribute="top" secondItem="Cwn-ep-0XM" secondAttribute="bottom" constant="-118" id="mmR-as-htZ"/>
+                            <constraint firstItem="Cwn-ep-0XM" firstAttribute="leading" secondItem="Qfg-tl-aVP" secondAttribute="trailing" constant="-98" id="peX-3X-hJH"/>
+                            <constraint firstItem="Cwn-ep-0XM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="rLE-Pw-wQT"/>
+                            <constraint firstItem="Cwn-ep-0XM" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yzz-bv-NLT"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Таймер" image="timer" catalog="system" id="uMe-Kx-IyP"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="IHr-Xs-nGH" id="BKh-QH-tdf"/>
+                        <outlet property="startButton" destination="ReO-K5-ZOk" id="nad-CQ-bTx"/>
+                        <outlet property="timeLabel" destination="6LB-Io-Ki4" id="xOJ-n3-G7L"/>
+                        <outlet property="timerPicker" destination="Cwn-ep-0XM" id="9ul-PN-mdG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.76923076923077" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="timer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

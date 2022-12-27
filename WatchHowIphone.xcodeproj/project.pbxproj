@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07965C4B295A1E2F00ECD008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07965C4A295A1E2F00ECD008 /* AppDelegate.swift */; };
+		07965C4D295A1E2F00ECD008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07965C4C295A1E2F00ECD008 /* SceneDelegate.swift */; };
+		07965C4F295A1E2F00ECD008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07965C4E295A1E2F00ECD008 /* ViewController.swift */; };
+		07965C52295A1E2F00ECD008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07965C50295A1E2F00ECD008 /* Main.storyboard */; };
+		07965C54295A1E3100ECD008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07965C53295A1E3100ECD008 /* Assets.xcassets */; };
+		07965C57295A1E3100ECD008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07965C55295A1E3100ECD008 /* LaunchScreen.storyboard */; };
+		07965C5F295A1FD300ECD008 /* WorldClockViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07965C5E295A1FD300ECD008 /* WorldClockViewController.storyboard */; };
+		07965C64295A21C800ECD008 /* AlarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07965C63295A21C800ECD008 /* AlarnViewController.swift */; };
+		07965C66295A21D900ECD008 /* AlarnViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07965C65295A21D900ECD008 /* AlarnViewController.storyboard */; };
+		07965C69295A230400ECD008 /* StoptimerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07965C68295A230400ECD008 /* StoptimerViewController.storyboard */; };
+		07965C6B295A231600ECD008 /* StoptimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07965C6A295A231600ECD008 /* StoptimerViewController.swift */; };
+		07965C6E295A23F600ECD008 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07965C6D295A23F600ECD008 /* TimerViewController.swift */; };
+		07965C70295A241500ECD008 /* TimerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07965C6F295A241500ECD008 /* TimerViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07965C47295A1E2F00ECD008 /* WatchHowIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchHowIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07965C4A295A1E2F00ECD008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07965C4C295A1E2F00ECD008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07965C4E295A1E2F00ECD008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07965C51295A1E2F00ECD008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07965C53295A1E3100ECD008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07965C56295A1E3100ECD008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07965C58295A1E3100ECD008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07965C5E295A1FD300ECD008 /* WorldClockViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WorldClockViewController.storyboard; sourceTree = "<group>"; };
+		07965C63295A21C800ECD008 /* AlarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarnViewController.swift; sourceTree = "<group>"; };
+		07965C65295A21D900ECD008 /* AlarnViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlarnViewController.storyboard; sourceTree = "<group>"; };
+		07965C68295A230400ECD008 /* StoptimerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoptimerViewController.storyboard; sourceTree = "<group>"; };
+		07965C6A295A231600ECD008 /* StoptimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoptimerViewController.swift; sourceTree = "<group>"; };
+		07965C6D295A23F600ECD008 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		07965C6F295A241500ECD008 /* TimerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimerViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07965C44295A1E2F00ECD008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07965C3E295A1E2F00ECD008 = {
+			isa = PBXGroup;
+			children = (
+				07965C49295A1E2F00ECD008 /* WatchHowIphone */,
+				07965C48295A1E2F00ECD008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07965C48295A1E2F00ECD008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07965C47295A1E2F00ECD008 /* WatchHowIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07965C49295A1E2F00ECD008 /* WatchHowIphone */ = {
+			isa = PBXGroup;
+			children = (
+				07965C6C295A23C200ECD008 /* TimerViewController */,
+				07965C67295A22E700ECD008 /* StoptimerViewController */,
+				07965C62295A21A200ECD008 /* AlarnViewController */,
+				07965C61295A214200ECD008 /* WorldClockViewController */,
+				07965C4A295A1E2F00ECD008 /* AppDelegate.swift */,
+				07965C4C295A1E2F00ECD008 /* SceneDelegate.swift */,
+				07965C4E295A1E2F00ECD008 /* ViewController.swift */,
+				07965C50295A1E2F00ECD008 /* Main.storyboard */,
+				07965C53295A1E3100ECD008 /* Assets.xcassets */,
+				07965C55295A1E3100ECD008 /* LaunchScreen.storyboard */,
+				07965C58295A1E3100ECD008 /* Info.plist */,
+			);
+			path = WatchHowIphone;
+			sourceTree = "<group>";
+		};
+		07965C61295A214200ECD008 /* WorldClockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07965C5E295A1FD300ECD008 /* WorldClockViewController.storyboard */,
+			);
+			path = WorldClockViewController;
+			sourceTree = "<group>";
+		};
+		07965C62295A21A200ECD008 /* AlarnViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07965C63295A21C800ECD008 /* AlarnViewController.swift */,
+				07965C65295A21D900ECD008 /* AlarnViewController.storyboard */,
+			);
+			path = AlarnViewController;
+			sourceTree = "<group>";
+		};
+		07965C67295A22E700ECD008 /* StoptimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07965C68295A230400ECD008 /* StoptimerViewController.storyboard */,
+				07965C6A295A231600ECD008 /* StoptimerViewController.swift */,
+			);
+			path = StoptimerViewController;
+			sourceTree = "<group>";
+		};
+		07965C6C295A23C200ECD008 /* TimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07965C6D295A23F600ECD008 /* TimerViewController.swift */,
+				07965C6F295A241500ECD008 /* TimerViewController.storyboard */,
+			);
+			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07965C46295A1E2F00ECD008 /* WatchHowIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07965C5B295A1E3100ECD008 /* Build configuration list for PBXNativeTarget "WatchHowIphone" */;
+			buildPhases = (
+				07965C43295A1E2F00ECD008 /* Sources */,
+				07965C44295A1E2F00ECD008 /* Frameworks */,
+				07965C45295A1E2F00ECD008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchHowIphone;
+			productName = WatchHowIphone;
+			productReference = 07965C47295A1E2F00ECD008 /* WatchHowIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07965C3F295A1E2F00ECD008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					07965C46295A1E2F00ECD008 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 07965C42295A1E2F00ECD008 /* Build configuration list for PBXProject "WatchHowIphone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07965C3E295A1E2F00ECD008;
+			productRefGroup = 07965C48295A1E2F00ECD008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07965C46295A1E2F00ECD008 /* WatchHowIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07965C45295A1E2F00ECD008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07965C66295A21D900ECD008 /* AlarnViewController.storyboard in Resources */,
+				07965C57295A1E3100ECD008 /* LaunchScreen.storyboard in Resources */,
+				07965C5F295A1FD300ECD008 /* WorldClockViewController.storyboard in Resources */,
+				07965C54295A1E3100ECD008 /* Assets.xcassets in Resources */,
+				07965C70295A241500ECD008 /* TimerViewController.storyboard in Resources */,
+				07965C52295A1E2F00ECD008 /* Main.storyboard in Resources */,
+				07965C69295A230400ECD008 /* StoptimerViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07965C43295A1E2F00ECD008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07965C4F295A1E2F00ECD008 /* ViewController.swift in Sources */,
+				07965C64295A21C800ECD008 /* AlarnViewController.swift in Sources */,
+				07965C4B295A1E2F00ECD008 /* AppDelegate.swift in Sources */,
+				07965C4D295A1E2F00ECD008 /* SceneDelegate.swift in Sources */,
+				07965C6E295A23F600ECD008 /* TimerViewController.swift in Sources */,
+				07965C6B295A231600ECD008 /* StoptimerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07965C50295A1E2F00ECD008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07965C51295A1E2F00ECD008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07965C55295A1E3100ECD008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07965C56295A1E3100ECD008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07965C59295A1E3100ECD008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07965C5A295A1E3100ECD008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07965C5C295A1E3100ECD008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchHowIphone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DanilTT.WatchHowIphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07965C5D295A1E3100ECD008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchHowIphone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DanilTT.WatchHowIphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07965C42295A1E2F00ECD008 /* Build configuration list for PBXProject "WatchHowIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07965C59295A1E3100ECD008 /* Debug */,
+				07965C5A295A1E3100ECD008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07965C5B295A1E3100ECD008 /* Build configuration list for PBXNativeTarget "WatchHowIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07965C5C295A1E3100ECD008 /* Debug */,
+				07965C5D295A1E3100ECD008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07965C3F295A1E2F00ECD008 /* Project object */;
+}
